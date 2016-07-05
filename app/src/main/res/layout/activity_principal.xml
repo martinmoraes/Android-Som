@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="br.com.earcadia.som.Principal">
+
+    <!--Anterio-->
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/anteriorImageButton"
+        android:src="@android:drawable/ic_media_rew"
+        android:background="@color/colorPrimary"
+        android:onClick="anterior"
+        android:contentDescription="@string/anterior"/>
+
+    <!--Tocar e Parar-->
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tocaImageButton"
+        android:src="@android:drawable/ic_media_play"
+        android:background="@color/colorPrimary"
+        android:onClick="toca"
+        android:contentDescription="@string/toca"/>
+
+    <!--Próximo-->
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/proximoImageButton"
+        android:background="@color/colorPrimary"
+        android:src="@android:drawable/ic_media_ff"
+        android:onClick="proximo"
+        android:contentDescription="@string/proximo"/>
+
+    <!--Gravar-->
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:id="@+id/gravarImageButton"
+        android:src="@android:drawable/ic_btn_speak_now"
+        android:contentDescription="@string/gravar"/>
+
+</LinearLayout>

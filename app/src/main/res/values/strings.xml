@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Som</string>
+    <string name="toca">Toda</string>
+    <string name="proximo">Próximo</string>
+    <string name="anterior">Anterior</string>
+    <string name="gravar">Gravar</string>
+</resources>
